@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import pydeck as pdk
 from datetime import datetime, timedelta
-from streamlit_calendar import calendar
 
 from data_loader import load_data
 from map_renderer import create_map
