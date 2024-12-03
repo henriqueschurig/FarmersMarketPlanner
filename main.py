@@ -127,7 +127,7 @@ try:
 except ZeroDivisionError:
     avg_hour_cost = 0
 if total_cost != 0:
-    st.write(f"The Total Cost is \${total_cost:,.2f} for {num} Farmers' Market. Each Farmers' Market costs on average \${avg_fm_cost:,.2f} and each Hour costs on average \${avg_hour_cost:,.2f}")
+    st.write(f"The Total Cost is \${total_cost:,.2f} for {num} Farmers' Market. Each Farmers' Market costs on average \${avg_fm_cost:,.2f}. Each Hour costs on average \${avg_hour_cost:,.2f}")
 else:
     st.write("The Total Cost is $0")
 
